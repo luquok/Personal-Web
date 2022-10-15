@@ -427,6 +427,13 @@ nav ul li a:hover {
         display: none;
     }
 
+    .container-grid-contacto p{
+        display: none;
+    }
+
+    .container-grid-contacto img{
+        width: 80px;
+    }
 }
 
 @media (max-width: 768px) {
