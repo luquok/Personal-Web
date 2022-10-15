@@ -46,6 +46,33 @@ nav ul li a:hover {
 .logo {
     color: white;
     font-size: 28px;
+    font-weight: bold;
+}
+
+.logo span{
+    transition: .5s linear;
+}
+
+.logo:hover span:nth-child(1){
+    margin-right: 10px;
+}
+
+.logo:hover span:nth-child(1)::after{
+    content: "UCAS";
+}
+
+.logo:hover span:nth-child(2)::after{
+    content: "ENDEZ";
+}
+
+.logo:hover span{
+    color: white;
+    text-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff
+    ;
+
 }
 
 .box {
